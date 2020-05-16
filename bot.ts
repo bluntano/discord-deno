@@ -2,7 +2,7 @@ import { Coward, Message } from "https://deno.land/x/coward/mod.ts"
 import { discordToken } from "./token.ts"
 
 if (discordToken === "token") {
-    console.log("Change the token in config.ts file.")
+    console.log("Change the token in token.ts file.")
 } else {
     let client = new Coward(discordToken)
     let prefix = "!"
